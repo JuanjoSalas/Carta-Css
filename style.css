@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+    body {
+    font-family: "Dancing Script";
+    background-color: beige;
+    margin: 10% 30%;
+    word-spacing: normal;
+    word-wrap: normal;
+    }
+.remitente{
+    text-align: right;
+    font-size: medium;
+    font-family: "dancing Script";
+    color: grey;
+    writing-mode: horizontal-tb; 
+}
+.address {
+    font-size: medium;
+    font-family: "dancing Script";
+    color: grey;
+    margin-bottom: 35px;
+}
+.cuerpo {
+    line-height: 150%;
+    text-align: justify;
+}
+.lista {
+    /* si no se realiza esto los puntos de la lsita estan en los margenes*/
+    margin-left: 25px; 
+}
+.espacio{
+    margin-left: 25px;
+    hyphens: none;
+}
+h1 {
+    margin-bottom: 15px;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h2 {
+    font-size: 25px;
+    font-style: italic;
+    margin: 20px 0;
+}
+.numero {
+    vertical-align: sub;
+}
